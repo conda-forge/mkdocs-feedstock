@@ -146,6 +146,3 @@ Feedstock Maintainers
 * [@dhirschfeld](https://github.com/dhirschfeld/)
 * [@ocefpaf](https://github.com/ocefpaf/)
 
-
-<!-- dummy commit to enable rerendering -->
-
