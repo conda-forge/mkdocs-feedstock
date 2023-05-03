@@ -1,11 +1,11 @@
-About mkdocs
-============
+About mkdocs-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mkdocs-feedstock/blob/main/LICENSE.txt)
 
 Home: http://www.mkdocs.org
 
 Package license: BSD-2-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mkdocs-feedstock/blob/main/LICENSE.txt)
 
 Summary: Project documentation with Markdown
 
