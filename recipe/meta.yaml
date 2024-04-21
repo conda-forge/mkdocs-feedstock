@@ -1,4 +1,4 @@
-{% set version = "1.5.3" %}
+{% set version = "1.6.0" %}
 
 package:
   name: mkdocs
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/m/mkdocs/mkdocs-{{ version }}.tar.gz
-  sha256: eb7c99214dcb945313ba30426c2451b735992c73c2e10838f76d09e39ff4d0e2
+  sha256: a73f735824ef83a4f3bcb7a231dcab23f5a838f88b7efc54a0eef5fbdbc3c512
 
 build:
   number: 0
@@ -23,13 +23,14 @@ requirements:
     # not really needed but the build crashes bc batch expects it
     - babel >=2.9.0
   run:
+    - mkdocs-get-deps >=0.2.0
     - markupsafe >=2.0.1
     - pathspec >=0.11.1
     - platformdirs >=2.2.0
     - python >=3.7
     - click >=7.0
     - jinja2 >=2.11.1
-    - markdown >=3.2.1
+    - markdown >=3.3.6
     - pyyaml >=5.1
     - watchdog >=2.0
     - ghp-import >=1.0
