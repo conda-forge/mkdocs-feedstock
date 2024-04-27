@@ -35,10 +35,8 @@ requirements:
     - mkdocs-get-deps >=0.2.0
     - pathspec >=0.11.1
     - packaging >=20.5
-    - platformdirs >=2.2.0
     - pyyaml >=5.1
     - pyyaml-env-tag >=0.1
-    - typing-extensions >=3.10
     - watchdog >=2.0
   run_constrained:
     - babel >=2.9.0
